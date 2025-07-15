@@ -1,0 +1,52 @@
+# Railway Deployment - gitignore
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+error.log
+access.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Database files (not needed for Railway)
+*.db
+*.sqlite
+*.sqlite3
+
+# PHP specific
+vendor/
+composer.lock
+*.cache
+
+# Upload folders (optional)
+backend/uploads/
+backend/api/uploads/
+
+# Local development files
+test_local.php
+debug.php
+local_*.php
+
+# Backup files
+*.bak
+*.backup
+
+# Documentation that's not needed
+docs/
+README_local.md 
