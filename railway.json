@@ -1,10 +1,10 @@
 {
   "$schema": "https://railway.app/railway.schema.json",
   "build": {
-    "buildCommand": "echo 'No build needed for PHP'"
+    "buildCommand": "echo 'PHP application ready'"
   },
   "deploy": {
-    "startCommand": "php -S 0.0.0.0:$PORT -t backend",
+    "startCommand": "php -S 0.0.0.0:$PORT -t . index.php",
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 3
   },
