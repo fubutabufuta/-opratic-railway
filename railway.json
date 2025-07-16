@@ -4,7 +4,7 @@
     "buildCommand": "echo 'PHP application ready'"
   },
   "deploy": {
-    "startCommand": "php -S 0.0.0.0:$PORT -t . index.php",
+    "startCommand": "php -S 0.0.0.0:$PORT -t . router.php",
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 3
   },
